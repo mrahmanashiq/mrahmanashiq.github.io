@@ -17,9 +17,7 @@ import {
   SiTypescript,
 } from "react-icons/si";
 
-import {
-  Achievement5,
-} from "./components/achievements";
+import { Achievement5 } from "./components/achievements";
 import { IResume } from "./types";
 
 const summaries = [
@@ -133,9 +131,7 @@ const experience = [
   },
 ];
 
-const achievements = [
-  Achievement5,
-];
+const achievements = [Achievement5];
 
 const educations = [
   {
@@ -174,4 +170,3 @@ const resume: IResume = {
 };
 
 export { resume };
-
