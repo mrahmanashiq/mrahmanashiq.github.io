@@ -1,5 +1,5 @@
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaJava, FaXTwitter } from "react-icons/fa6";
 import {
   SiChai,
   SiDocker,
@@ -25,6 +25,11 @@ const summaries = [
 ];
 
 const skills = [
+  {
+    title: "Java",
+    icon: FaJava,
+    color: "bg-amber-200",
+  },
   {
     title: "TypeScript",
     icon: SiTypescript,
