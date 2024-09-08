@@ -1,20 +1,14 @@
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { FaJava, FaXTwitter } from "react-icons/fa6";
 import {
-  SiChai,
   SiDocker,
   SiExpress,
-  SiFlask,
-  SiJest,
-  SiMocha,
   SiMongodb,
   SiMysql,
-  SiNestjs,
   SiNextdotjs,
-  SiPytest,
-  SiPython,
   SiReact,
-  SiTypescript,
+  SiSpring,
+  SiTypescript
 } from "react-icons/si";
 
 import { Achievement5 } from "./components/achievements";
@@ -28,62 +22,12 @@ const skills = [
   {
     title: "Java",
     icon: FaJava,
-    color: "bg-amber-200",
+    color: "bg-amber-500",
   },
   {
-    title: "TypeScript",
-    icon: SiTypescript,
-    color: "bg-blue-200",
-  },
-  {
-    title: "Python",
-    icon: SiPython,
-    color: "bg-yellow-200",
-  },
-  {
-    title: "Express",
-    icon: SiExpress,
-    color: "bg-gray-200",
-  },
-  {
-    title: "React.js",
-    icon: SiReact,
-    color: "bg-sky-200",
-  },
-  {
-    title: "Next.js",
-    icon: SiNextdotjs,
-    color: "bg-gray-200",
-  },
-  {
-    title: "Nest.js",
-    icon: SiNestjs,
-    color: "bg-rose-200",
-  },
-  {
-    title: "Flask",
-    icon: SiFlask,
-    color: "bg-sky-200",
-  },
-  {
-    title: "Jest",
-    icon: SiJest,
-    color: "bg-red-200",
-  },
-  {
-    title: "Mocha",
-    icon: SiMocha,
-    color: "bg-amber-200",
-  },
-  {
-    title: "Chai",
-    icon: SiChai,
-    color: "bg-orange-200",
-  },
-  {
-    title: "Pytest",
-    icon: SiPytest,
-    color: "bg-sky-200",
+    title: "Spring Boot",
+    icon: SiSpring,
+    color: "bg-green-500",
   },
   {
     title: "MongoDB",
@@ -99,6 +43,26 @@ const skills = [
     title: "Docker",
     icon: SiDocker,
     color: "bg-sky-200",
+  },
+  {
+    title: "TypeScript",
+    icon: SiTypescript,
+    color: "bg-blue-200",
+  },
+  {
+    title: "Express",
+    icon: SiExpress,
+    color: "bg-gray-200",
+  },
+  {
+    title: "React.js",
+    icon: SiReact,
+    color: "bg-sky-200",
+  },
+  {
+    title: "Next.js",
+    icon: SiNextdotjs,
+    color: "bg-gray-200",
   },
 ];
 
@@ -128,10 +92,11 @@ const experience = [
     start: "2023 JUNE",
     end: "CURRENT",
     contributions: [
-      "Collaborate with the product team to analyze opportunities and gaps in existing and new projects.",
-      "Create technical specifications through in-depth research on product and architecture and performing spikes.",
-      "Migrate existing services to the latest runtime and framework versions.",
-      "Build public API endpoints, webhook events and resolve customer reported bugs.",
+      "Develop and maintain backend services using (Groovy/Grails ~ Java/Spring boot).",
+      "Design and implement RESTful APIs.",
+      "Troubleshoot and resolve backend issues.",
+      "Fixing and implement/improving UI component using Vue.js.",
+      "Write clean, maintainable code following best practices.",
     ],
   },
 ];
