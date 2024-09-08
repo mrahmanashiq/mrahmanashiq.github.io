@@ -8,7 +8,7 @@ import {
   SiNextdotjs,
   SiReact,
   SiSpring,
-  SiTypescript
+  SiTypescript,
 } from "react-icons/si";
 
 import { Achievement5 } from "./components/achievements";
